@@ -1,0 +1,11 @@
+{
+  "skip_files": [
+    "lib/green_payments/application.ex",
+    "lib/green_payments/release.ex",
+    "lib/green_payments_web.ex",
+    "lib/green_payments_web/router.ex",
+    "lib/green_payments_web/views/error_helpers.ex",
+    "lib/green_payments_web/guardian_error_handler.ex",
+    "test/support/"
+  ]
+}
