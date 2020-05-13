@@ -4,6 +4,9 @@ This project implements a bank system where users can transact money.
 
 ### Project setup
 
+If you don't have installed elixir and phoenix. Follow the next links to see how to proceed: [elixir](elixir.md) & [phoenix](phoenix.md)
+
+
 To start your Phoenix server:
 
   * Setup the project with `mix setup`
