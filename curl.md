@@ -1,18 +1,18 @@
 - ### Create an user and account:
 
   ```
-    curl -X POST \
-    {url}/api/v1/signup \
-    -H 'Content-Type: application/json' \
-    -H 'cache-control: no-cache' \
-    -d '{
-      "first_name": "Marcelo",
-      "last_name": "Jasek",
-      "email": "marcelo.jasek@stone.com",
-      "registration_id": "033.238.290-77",
-      "password": "RD3U3SEAKgzbm9Gu",
-      "password_confirmation": "RD3U3SEAKgzbm9Gu"
-    }'
+    curl --location --request POST 'https://green-payments.herokuapp.com/api/v1/signup' \
+    --header 'Content-Type: application/json' \
+    --header 'Cache-Control: no-cache' \
+    --header 'Content-Type: text/plain' \
+    --data-raw '{
+          "first_name": "Marcelo",
+          "last_name": "Jasek",
+          "email": "marcelo.jasek@stone.com",
+          "registration_id": "033.238.290-77",
+          "password": "RD3U3SEAKgzbm9Gu",
+          "password_confirmation": "RD3U3SEAKgzbm9Gu"
+        }'
   ```
 
 - ### Login to an account:
