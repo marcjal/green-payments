@@ -6,6 +6,7 @@ This project implements a bank system where users can transact money.
 
 If you don't have installed elixir and phoenix. Follow the next links to see how to proceed: [elixir](elixir.md) & [phoenix](phoenix.md)
 
+For those that used asdf I added the .tool-versions file with a pre-defined elixir version to use.
 
 To start your Phoenix server:
 
