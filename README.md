@@ -147,3 +147,7 @@ Here are the examples for calling the API
    }
 }
 ```
+
+### Deployments
+
+Application is currently hosted on Heroku at https://green-payments.herokuapp.com/.
