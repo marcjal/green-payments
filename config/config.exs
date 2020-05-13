@@ -5,7 +5,7 @@ config :green_payments,
 
 config :green_payments, GreenPaymentsWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "nZft0wDfGPOhuGm8qb2oq2568D251IOv5JK9NCcvE49LGOg6a5IQUo57IMjJbx0A",
+  secret_key_base: "lW1f7kW4iif4s5He7YcsorXuEz+yotCHB1+c0HnzYPZkdNRsBExObGhTX7d4gHta",
   render_errors: [view: GreenPaymentsWeb.ErrorView, accepts: ~w(json)],
   pubsub: [name: GreenPayments.PubSub, adapter: Phoenix.PubSub.PG2]
 
