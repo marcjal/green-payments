@@ -10,7 +10,7 @@ For those that used asdf I added the .tool-versions file with a pre-defined elix
 
 To start your Phoenix server:
 
-  * Setup the project with `mix setup`
+  * Run docker-compose up
   * Create and migrate your database with `mix ecto.create`
   * Create and migrate your database for test case `MIX_ENV=test mix ecto.create`
   * Start Phoenix endpoint with `mix phx.server`
